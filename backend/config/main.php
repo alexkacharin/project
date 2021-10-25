@@ -11,7 +11,9 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+
+    ],
     'components' => [
         'request' => [
               'baseUrl' => '/admin',
@@ -44,6 +46,7 @@ return [
                 ],
             ],
         ],
+
        
 'urlManager' => [
    'enablePrettyUrl' => true,

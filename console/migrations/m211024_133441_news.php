@@ -21,7 +21,7 @@ class m211024_133441_news extends Migration
             'new_tag_id' => $this -> integer()
         ]);
         $this -> addForeignKey('user','news','created_by','user','id','CASCADE');
-        $this -> addForeignKey('tags','news','new_tag_id','tags','id','CASCADE');
+       // $this -> addForeignKey('tags','news','new_tag_id','tags','id','CASCADE');
 
     }
 
